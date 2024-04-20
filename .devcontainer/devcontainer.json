@@ -6,7 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/nim-asdf:2": {
-			"version": "1.0.6"
+			"version": "2.0.0"
 		}
 	},
 	"customizations": {
