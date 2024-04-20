@@ -12,7 +12,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"kosz78.nim"
+				"NimLang.nimlang"
 			]
 		}
 	}
