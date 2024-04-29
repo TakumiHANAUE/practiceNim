@@ -58,3 +58,6 @@ proc getNeighbors*(p: Position): seq[Position] =
     let left = getLeftPosition(p)
     if p != left:
         result.add(left)
+
+proc getDistance*(p1, p2: Position): int =
+    result = abs(p1.x - p2.x) + abs(p1.y - p2.y)
