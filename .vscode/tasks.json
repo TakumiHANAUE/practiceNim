@@ -6,7 +6,23 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "nim c ${file}",
+            "command": "nim",
+            "args": [
+                "compile",
+                "${file}"
+            ],
+            "problemMatcher": [],
+            "options": {"cwd": "${fileDirname}"},
+        },
+        {
+            "label": "build (for Debugging)",
+            "type": "shell",
+            "command": "nim",
+            "args": [
+                "compile",
+                "--debugger:native",
+                "${file}"
+            ],
             "problemMatcher": [],
             "options": {"cwd": "${fileDirname}"},
         },
