@@ -12,7 +12,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"NimLang.nimlang"
+				"NimLang.nimlang",
+				"vadimcn.vscode-lldb"
 			]
 		}
 	}
